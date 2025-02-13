@@ -1,10 +1,13 @@
-import ProfileCard from "./ProfileCard";  // Import the ProfileCard
-import "./App.css";                       // Optional: Keep if you want to style
+import ProfileCard from "./ProfileCard"; 
+                     
 
 function App() {
   return (
     <div className="App">
-      <ProfileCard />  {/* Render the ProfileCard */}
+      <ProfileCard
+      name = "May"
+      age = "21"
+      message = "Hello" /> 
     </div>
   );
 }
