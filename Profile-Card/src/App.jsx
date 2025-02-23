@@ -1,5 +1,4 @@
 import ProfileCard from "./ProfileCard.jsx"; 
-// import MyCard from "./MyCard.jsx"
                      
 
 function App() {
