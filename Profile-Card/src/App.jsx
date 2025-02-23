@@ -1,14 +1,21 @@
-import ProfileCard from "./ProfileCard"; 
+import ProfileCard from "./ProfileCard.jsx"; 
+// import MyCard from "./MyCard.jsx"
                      
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <ProfileCard
       name = "May"
-      age = "21"
+      age = {21}
       message = "Hello" /> 
+
+      <ProfileCard 
+      name={undefined} 
+      age={undefined} 
+      message={undefined} />
     </div>
+    
   );
 }
 
