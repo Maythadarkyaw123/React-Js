@@ -11,8 +11,10 @@ function FruitList(){
         setFruits(f => [...f, newone])
     }
 
-    function delFruit(){
-        
+    function delFruit(fruitToDelete) {
+        setFruits(fruits.filter(
+            (fruit) => fruit !== fruitToDelete
+        ));
     }
     
 
@@ -24,7 +26,8 @@ function FruitList(){
                 {fruits.map((fruit,index) => 
                     <li key={fruit}>
                         {fruit}
-                        <button type="button" onClick={delFruit}>Delete</button>
+                        <button type="button" onClick={() => delFruit(fruit)}>Delete</button>
+
                     </li>
                     
                 )} 
