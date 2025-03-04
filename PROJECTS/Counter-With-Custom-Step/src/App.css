@@ -1,0 +1,38 @@
+
+body {
+    background-color:rgb(177, 189, 111);
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-item: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+.myCounter{
+    background: grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+ p{
+    color: white;
+ }
+
+ input{
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 3px;
+ }
+  
+  button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+  
