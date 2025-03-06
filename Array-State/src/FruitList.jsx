@@ -4,10 +4,9 @@ function FruitList(){
     const [fruits, setFruits] = useState(["apple","orange","grape"]);
 
     function addNew(){
+        if (input.trim() === "") return; //prevent empty fruits
         const newone = document.getElementById("newfruit").value;            //here be aware of value
         document.getElementById("newfruit").value = "";                //after pressing add button text space will be clean
-    
-
         setFruits(f => [...f, newone])
     }
 
