@@ -1,10 +1,13 @@
 import React from "react";
-import DataFetch from "./DataFetch";
+// import DataFetch from "./DataFetch";
+import RandomUser from "./RandomUser";
 
 function App(){
   return(
     <div>
-      <DataFetch/>
+      {/* <DataFetch/> */}
+
+      <RandomUser/>
     </div>
   )
 }
