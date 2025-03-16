@@ -1,0 +1,21 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
